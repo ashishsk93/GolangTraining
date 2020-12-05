@@ -11,13 +11,10 @@ func main() {
 
 	for i := 0; i < 100; i++ {
 		if i%3 == 0 {
-			fmt.Print(i)
-			fmt.Print(" is divisible by three")
+			fmt.Println(i, "is divisible by three")
 		} else {
-			fmt.Print(i)
-			fmt.Print(" is not divisible by three")
+			fmt.Println(i, "is not divisible by three")
 		}
-		fmt.Println()
 	}
 
 	exit()
